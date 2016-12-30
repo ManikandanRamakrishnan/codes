@@ -1,4 +1,4 @@
-//package mani;
+
 
 import java.util.Scanner;
 
