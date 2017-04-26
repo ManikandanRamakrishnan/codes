@@ -11,6 +11,7 @@ public class SeedNumber {
 			int number=input.nextInt();
 			System.out.print("Enter y");
 			int seed=input.nextInt();
+		        int original=number;
 			int check=0;
 			if(number<0)
 			{
@@ -18,7 +19,7 @@ public class SeedNumber {
 				check=1;
 			}
 			ans=number;
-			int original=ans;
+			
 			while(number>0){
 			ans*=number%10;
 			number/=10;
