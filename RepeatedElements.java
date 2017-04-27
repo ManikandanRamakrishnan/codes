@@ -9,7 +9,7 @@ public class RepeatedElements {
 		Scanner input=new Scanner(System.in);
 		Set<Integer> set=new HashSet<>();
 		ArrayList<Integer> number= new ArrayList<Integer>();
-		System.out.println("Enter registration numbers");
+		System.out.println("Enter n");
 		int n=input.nextInt();
 		System.out.println("Enter registration numbers");
 		for(int i=0;i<n;i++)
