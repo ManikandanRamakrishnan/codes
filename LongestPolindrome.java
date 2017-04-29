@@ -1,4 +1,4 @@
-package String;
+
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class LongestPolindrome {
 		int length=0,max=0;
 		int start=0,end=0;
 		StringBuffer palindrome=new StringBuffer();
-		System.out.println("Enter value");
+		System.out.println("Enter String");
 		String str=input.nextLine();
 		for(int i=0;i<str.length();i++)
 		{
