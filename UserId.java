@@ -64,7 +64,8 @@ public class UserId {
 				ans+=userid.charAt(i);
 			}
 		}
-        System.out.println(ans);
+		System.out.print("UserId=");
+                 System.out.println(ans);
         input.close();
 	}
 
