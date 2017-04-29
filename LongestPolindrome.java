@@ -14,12 +14,8 @@ public class LongestPolindrome {
 		String str=input.nextLine();
 		for(int i=0;i<str.length();i++)
 		{
-		for(int j=i+1;j<str.length();j++)
+		for(int j=i+1;j<=str.length();j++)
 		{
-			if(j==str.length()-1)
-			{
-				j+=1;
-			}
 	    String sub=str.substring(i,j);	
 	    palindrome=new StringBuffer(sub);
 	    String rev=palindrome.reverse().toString();
