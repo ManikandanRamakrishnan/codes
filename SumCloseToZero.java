@@ -1,6 +1,5 @@
 package Array;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class SumCloseToZero {
@@ -9,7 +8,7 @@ public class SumCloseToZero {
 		Scanner input=new Scanner(System.in);
 		int close=9999999;
 		int start=0,end=0;
-		//i assumed that the array size greater than one
+		//i assumed that the array size is greater than one
 		System.out.println("Enter Array Size");
         int n=input.nextInt();
         int[] number=new int[n];
