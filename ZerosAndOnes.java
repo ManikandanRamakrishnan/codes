@@ -6,7 +6,7 @@ public class ZerosAndOnes {
 
 	public static void main(String[] args) {
 		Scanner input=new Scanner(System.in);
-		System.out.println("Enter Array1 Size");
+		System.out.println("Enter Array Size");
         int n=input.nextInt();
         int[][] arr=new int[n][n];
         int[][] copy=new int[n][n];
