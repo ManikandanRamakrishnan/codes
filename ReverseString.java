@@ -1,30 +1,24 @@
-
+package String;
 
 import java.util.Scanner;
 
-public class ReverseString {
-
-	String Reverse(	String original)
-	{
-
-		StringBuilder str=new StringBuilder("");
-        for(int i=original.length()-1;i>=0;i--)
-        {
-        	str.append(original.charAt(i));
-        }
-		original=str.toString();
-		return original;
-
+public class ReverseOrderOfWords {
+	public static String reverseByWord(String str){
+		String[] str1=str.split(" ");
+		String ans="";
+		for(int i=0;i<str1.length;i++){
+			StringBuffer rev=new StringBuffer(str1[i]);
+			ans+=rev.reverse().toString()+" ";
+		}
+		return ans;
 	}
-
 	public static void main(String[] args) {
-		String original;
 		Scanner input=new Scanner(System.in);
-		System.out.print("Enter the String");
-		original=input.nextLine();
-		ReverseString rev=new ReverseString();
-		System.out.print("The Reverse string is "+rev.Reverse(original));
-       input.close();
+		System.out.println("Enter string");
+        String str=input.nextLine();
+        System.out.println(reverseByWord(str));
+        input.close();
+
 	}
 
 }
