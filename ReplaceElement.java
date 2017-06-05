@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class ReplaceElement {
 	public static void main(String[] args) {
 		Scanner input=new Scanner(System.in);
-		System.out.println("Enter the size of thae array");
+		System.out.println("Enter the size of the array");
 		int n=input.nextInt();
 		ArrayList<Integer> arr=new ArrayList<Integer>();
 		System.out.println("Enter the array elements");
