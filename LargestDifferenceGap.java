@@ -22,7 +22,7 @@ public class LargestDifferenceGap {
 	public static void main(String[] args) {
 		Scanner input=new Scanner(System.in);
 		int i;
-		System.out.println("Enter the size of thae array");
+		System.out.println("Enter the size of the array");
 		int n=input.nextInt();
 		int arr[]=new int[n];
 		System.out.println("Enter the array elements");
