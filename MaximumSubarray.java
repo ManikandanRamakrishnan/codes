@@ -22,7 +22,7 @@ public class MaximumSubarray {
         {
         	int sum=number[i];
         	int k=i;
-        	for( j=i+1;j<n;j++)
+        	for( j=i;j<n;j++)
         	{
         	sum+=number[j];
         	if(sum>max)
