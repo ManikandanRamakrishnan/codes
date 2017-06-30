@@ -32,7 +32,7 @@ public class MaximumSumSubArray {
         for(int i:list){
         	System.out.println(i+" ");
         }
-        System.out.println("Length is "+list.size());
+      
        
     }
 
