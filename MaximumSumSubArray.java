@@ -9,7 +9,7 @@ public class MaximumSumSubArray {
       Scanner input=new Scanner(System.in);
       ArrayList<Integer> list=new ArrayList<Integer>();
         int n=input.nextInt();
-        int max=-9999999;
+        Integer max=new Integer(Integer.MIN_VALUE);
        int[] arr=new int[n];
         for(int i=0;i<n;i++){
             arr[i]=input.nextInt();
