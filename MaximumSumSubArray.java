@@ -30,7 +30,7 @@ public class MaximumSumSubArray {
         }
         System.out.println("Maximum sum subarry is:");
         for(int i:list){
-        	System.out.println(i+" ");
+        	System.out.print(i+" ");
         }
       
        
