@@ -1,13 +1,13 @@
 import java.util.ArrayList;
-import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Scanner;
-import java.util.Set;
+
 
 public class RepeatedElements {
 
 	public static void main(String[] args) {
 		Scanner input=new Scanner(System.in);
-		Set<Integer> set=new HashSet<>();
+		LinkedHashSet<Integer> set=new LinkedHashSet<Integer>();
 		ArrayList<Integer> number= new ArrayList<Integer>();
 		System.out.println("Enter n");
 		int n=input.nextInt();
