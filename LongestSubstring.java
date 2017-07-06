@@ -1,12 +1,12 @@
 package String;
 
-import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Scanner;
 
 public class LongestSubstring {
 	Boolean findRepeat(String str)
 	{
-		HashSet<Character> s=new HashSet<Character>();
+		LinkedHashSet<Character> s=new LinkedHashSet<Character>();
 		for(int i=0;i<str.length();i++){
 		if(!s.add(str.charAt(i)))
 		{
