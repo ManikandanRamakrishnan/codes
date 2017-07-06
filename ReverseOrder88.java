@@ -1,12 +1,12 @@
 package GUVI;
 
-import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Scanner;
 
 public class ReverseOrder88 {
 
 	public static void main(String[] args) {
-		HashSet<Character> chr=new HashSet<Character>();
+		LinkedHashSet<Character> chr=new LinkedHashSet<Character>();
 		Scanner input=new Scanner(System.in);
 		StringBuffer  str=new StringBuffer(input.next());
 		str=str.reverse();
